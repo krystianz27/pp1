@@ -11,4 +11,4 @@ S = sqrt(p*(p-a)*(p-b)*(p-c))
 S = round(S, 2)
 
 # print("The area of the triangle is {0}".format(S))
-print(f"The area of the triangle is {S}")
+# print(f"The area of the triangle is {S}")
