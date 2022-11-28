@@ -1,7 +1,8 @@
 import json
 
-with open("filename.json") as file:
+with open("test.json") as file:
     data = json.load(file)
 
-for k,v in data.items():
-    print(k,":",v)
+for dict in data:
+    for key, vvalue in dict.items():
+        
