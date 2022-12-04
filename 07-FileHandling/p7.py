@@ -1,6 +1,6 @@
 file = open('countries.txt','r')
-
+i = 1
 for line in file:
-     print(line, end="")
-
+     print(i, line, end="")
+     i+=1
 file.close()

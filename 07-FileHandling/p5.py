@@ -26,24 +26,24 @@ import re
 # print(re.findall("[aeiou]", text)) #f
 
 
-x = (re.findall(r"\w+", text))  #g
+# x = (re.findall(r"\w+", text))  #g
 
-def filter_word(n):
-    if len(n) >=5:
-        return True
-    else:
-        return False
+# def filter_word(n):
+#     if len(n) >=5:
+#         return True
+#     else:
+#         return False
 
-list = list(filter(filter_word, x))
-print(list)
+# list = list(filter(filter_word, x))
+# print(list)
 
 
-# list = re.findall(r"\w+", text)  #g
-# list2 = []
-# for word in list:
-#     if len(word) >= 5:
-#         list2.append(word)
-# print(list2)
+list = re.findall(r"\w+", text)  #g
+list2 = []
+for word in list:
+    if len(word) >= 5:
+        list2.append(word)
+print(list2)
 
 
 

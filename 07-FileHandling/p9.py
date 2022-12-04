@@ -9,6 +9,17 @@ for number in numbers:
     print(number)
 
 # print(numbers)
-print("Sum: ", str(sum))
+print("Sum:", str(sum))
 
 file.close()
+
+
+
+
+
+# for number in file:
+#     number = int(number)
+#     sum +=number
+#     print(number)
+
+# print("Sum:", str(sum))

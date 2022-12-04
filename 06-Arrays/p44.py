@@ -13,6 +13,7 @@ def transpose_matrix(m):
     
 array1 = [[1,2,3], [4,5,6], [7,8,9]]
 array2 = [[1,2,3,4,5], [6,7,8,9,0]]
+array3 = [5,6,7,8]
 
 # print(transpose_matrix(array1))
 k = transpose_matrix(array2)
@@ -23,8 +24,6 @@ print(k)
 # 1 2 3
 # 4 5 6
 # 7 8 9
-
-
 
 
 # b.	1 2 3 4 5
