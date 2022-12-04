@@ -9,15 +9,10 @@ table = [
     {"Russia" : 143}
 ]
 
-
 # print(table)
 
 i = 0
-# while i < len(table):
-#     print(table[i])
-#     i+=1
-
 while i < len(table):
-    for key, value in table.items():
-        print(key, "-", value)
+    print(table[i])
     i+=1
+

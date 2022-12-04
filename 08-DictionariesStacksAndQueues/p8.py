@@ -32,7 +32,6 @@ print(person)
 person["hobby"] += ["bicycle"]
 print(person["hobby"])
 
-person["height"] = 180
 person["phone"]["workphone"] = "313131444"
 
 print(person)

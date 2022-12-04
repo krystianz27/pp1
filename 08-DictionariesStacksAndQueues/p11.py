@@ -5,5 +5,5 @@ with open("test.json") as file:
 
 for dict in data:
     for key, value in dict.items():
-        d
+        print(key, value)
 
