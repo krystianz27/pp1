@@ -12,4 +12,4 @@ film = {
 }
 
 with open("favourite.json", "w") as file:
-    json.dump(film, file, indent=4)
+    json.dump(film, file, indent=2)

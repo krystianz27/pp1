@@ -17,5 +17,5 @@ film = {
     }
 }
 
-with open("student.json", "r") as file:
+with open("student.json", "w") as file:
     json.dump(film, file, indent=2)
