@@ -4,10 +4,11 @@ import csv
 # tekst1 = csv.reader(file1)
 # # file1.close()
 # # print(tekst1)
-# # next(tekst1)
+# next(tekst1)
 
 # file2 = open("students2.csv", "w", newline="")
 # tekst2 = csv.writer(file2, delimiter=",")
+
 
 # for row in tekst1:
 #     tekst2.writerow(row)
