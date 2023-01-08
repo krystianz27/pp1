@@ -20,5 +20,5 @@ print(student1)
 student2 = Student("Jan", "Kowalski", "IT")
 print(student2)
 
-student2 = Student("Jan", "Kowalski", "IT")
+student2 = Student("Kacper", "Nowak", "IT")
 print(student2)
